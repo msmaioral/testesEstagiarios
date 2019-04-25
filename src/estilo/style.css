@@ -1,0 +1,23 @@
+.teste{
+    width: 90%;
+    color: black;
+    font-size: 14px; 
+    background-color: rgb(248, 248, 248);
+    border: 2px solid rgb(240, 240, 240);
+    text-align: left;
+    display: inline-block;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    
+}
+li{
+    text-decoration: none;
+   
+    display: inline-block;
+    padding: 20px;
+}
+span{
+    text-align: left;
+}
