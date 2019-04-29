@@ -1,23 +1,87 @@
-.teste{
-    width: 90%;
+/* GERAL INICIO*/
+.clear{
+    clear: both;
+}
+/* GERAL FIM*/
+/* HEADER INICIO*/
+.divHeader{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+}
+.divLogo{
+    padding: 10px;
+    float: left;
+}
+.divTxtLogo{
+    position: relative;
+    top: 20px;
+}
+.font-13{
+    color: #777777;
+    font-size: 13px;
+}
+/* HEADER FIM */
+/* MENU INICIO */
+.nav-item{
+    padding: 10px;
+}
+.nav-item>a{
+    color: #777777;
+}
+.nav-item>a:hover{
     color: black;
-    font-size: 14px; 
-    background-color: rgb(248, 248, 248);
+}
+.menu{
     border: 2px solid rgb(240, 240, 240);
-    text-align: left;
-    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
-ul{
-    text-decoration: none;
-    list-style: none;
-    
+.nav-pills .nav-item .nav-link.active {
+    color: black;
+    background-color: rgb(220, 220, 220);
 }
-li{
-    text-decoration: none;
-   
-    display: inline-block;
-    padding: 20px;
+.nav-pills .nav-item .nav-link.active {
+    color: black;
+    background-color: rgb(220, 220, 220);
 }
-span{
-    text-align: left;
+.navbar{
+    height:60px;
 }
+
+
+
+
+
+/* MENU FIM */
+/* BODY INICIO*/
+.iframe{
+    height: 600px;
+}
+/* BODY FIM*/
+/*RESPONSIVO INICIO*/
+
+@media screen and (max-width: 1200px){
+    .navbar{
+        height:100%;
+    }
+    .iframe{
+        height: 450px;
+    }
+    .nav-item,.dropdown{
+        text-align: center;
+    }
+    .divHeader{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .divLogo{
+        float:none;
+        text-align: center;
+    }
+    .divTxtLogo{
+        position: relative;
+        top: 10px;
+    }
+}
+/*RESPONSIVO FIM*/
