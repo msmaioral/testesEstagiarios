@@ -20,7 +20,7 @@ class Body extends Component {
                         <iframe className="col-sm-12 iframe" src="https://app.powerbi.com/view?r=eyJrIjoiOWI2M2M2YjctMTQwNi00OTdmLTk0OGYtMGIxYzRjNDA0NjcwIiwidCI6ImM3YWVjOWIyLThiNmUtNDI1NC05M2RhLWEwNzM4NmRkOGJkMCJ9" frameborder="0" ></iframe>
                     </div>
                     <div id="iframe6" className="tab-pane fade">
-                        
+                        <iframe className="col-sm-12 iframe" src="https://app.powerbi.com/view?r=eyJrIjoiOTEwODA2ZjgtMmM3YS00ZDJjLWE5NmItZmI0ZTk0ZjBjMDM4IiwidCI6ImM3YWVjOWIyLThiNmUtNDI1NC05M2RhLWEwNzM4NmRkOGJkMCJ9" frameborder="0" ></iframe>
                     </div>
                     
                 </div>

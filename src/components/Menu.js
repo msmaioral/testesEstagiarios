@@ -19,7 +19,8 @@ class Menu extends Component {
                         <li className="nav-item"><a className="nav-link" href="#iframe3"  data-toggle="pill" >Termos aditivos</a></li>
                         <li className="nav-item"><a className="nav-link" href="#iframe4"  data-toggle="pill" >Ordens Bancárias</a></li>
                         <li className="nav-item"><a className="nav-link" href="#iframe5"  data-toggle="pill" >Prestação de Contas</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#iframe6"  data-toggle="pill" >Alertas</a></li>
+                        <li className="nav-item"><a className="nav-link" href=""  data-toggle="pill" >Alertas</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#iframe6"  data-toggle="pill" >Dashboard</a></li>
                          
                     </ul>
                     <div className="dropdown col-xl-2">
